@@ -1,0 +1,9 @@
+com/crm/pages/PersonDetailsPage.class
+com/crm/pages/LoginPage.class
+com/crm/pages/CreatePersonPage.class
+com/crm/pages/PersonSummaryPage.class
+com/crm/util/ExtentManager.class
+com/crm/base/TestBase.class
+com/crm/ExtentreportListner/ExtentTestListener.class
+com/crm/pages/AlreadyLoggedOnPage.class
+com/crm/pages/HomePage.class

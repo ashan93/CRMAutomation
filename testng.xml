@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="CRM Automation Suite">
+    <test name="CRM Functional Tests">
+        <listeners>
+            <listener class-name="com.crm.ExtentreportListner.ExtentTestListener"/>
+        </listeners>
+        <classes>
+            <class name="com.crm.test.LoginPageTest" />
+            <class name="com.crm.test.HomePageTest" />
+            <class name="com.crm.test.CreatePersonTest" />
+            <class name="com.crm.test.PersonSummaryTest" />
+            
+        </classes>
+    </test>
+</suite>

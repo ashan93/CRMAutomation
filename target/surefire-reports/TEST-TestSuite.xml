@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="175.31" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="webdriver.chrome.driver" value="/Users/ashanhettiarachchi/chromedriver-mac-x64/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/ashanhettiarachchi/JavaSelenium/seleniumautomation/target/test-classes:/Users/ashanhettiarachchi/JavaSelenium/seleniumautomation/target/classes:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-java/4.32.0/selenium-java-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-api/4.32.0/selenium-api-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.32.0/selenium-chrome-driver-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.32.0/selenium-chromium-driver-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-json/4.32.0/selenium-json-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.32.0/selenium-manager-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v134/4.32.0/selenium-devtools-v134-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v135/4.32.0/selenium-devtools-v135-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v136/4.32.0/selenium-devtools-v136-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.32.0/selenium-edge-driver-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.32.0/selenium-firefox-driver-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-http/4.32.0/selenium-http-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.32.0/selenium-ie-driver-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.32.0/selenium-remote-driver-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/Users/ashanhettiarachchi/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/ashanhettiarachchi/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/ashanhettiarachchi/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/ashanhettiarachchi/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/ashanhettiarachchi/.m2/repository/io/opentelemetry/opentelemetry-api/1.49.0/opentelemetry-api-1.49.0.jar:/Users/ashanhettiarachchi/.m2/repository/io/opentelemetry/opentelemetry-context/1.49.0/opentelemetry-context-1.49.0.jar:/Users/ashanhettiarachchi/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.49.0/opentelemetry-exporter-logging-1.49.0.jar:/Users/ashanhettiarachchi/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.49.0/opentelemetry-sdk-common-1.49.0.jar:/Users/ashanhettiarachchi/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.49.0/opentelemetry-sdk-extension-autoconfigure-spi-1.49.0.jar:/Users/ashanhettiarachchi/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.49.0/opentelemetry-sdk-extension-autoconfigure-1.49.0.jar:/Users/ashanhettiarachchi/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.49.0/opentelemetry-sdk-trace-1.49.0.jar:/Users/ashanhettiarachchi/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.49.0/opentelemetry-sdk-1.49.0.jar:/Users/ashanhettiarachchi/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.49.0/opentelemetry-sdk-metrics-1.49.0.jar:/Users/ashanhettiarachchi/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.49.0/opentelemetry-sdk-logs-1.49.0.jar:/Users/ashanhettiarachchi/.m2/repository/net/bytebuddy/byte-buddy/1.17.5/byte-buddy-1.17.5.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-os/4.32.0/selenium-os-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.32.0/selenium-safari-driver-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-support/4.32.0/selenium-support-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/ashanhettiarachchi/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/ashanhettiarachchi/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/ashanhettiarachchi/.m2/repository/org/apache/poi/poi/5.4.0/poi-5.4.0.jar:/Users/ashanhettiarachchi/.m2/repository/commons-codec/commons-codec/1.17.1/commons-codec-1.17.1.jar:/Users/ashanhettiarachchi/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/ashanhettiarachchi/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/ashanhettiarachchi/.m2/repository/commons-io/commons-io/2.18.0/commons-io-2.18.0.jar:/Users/ashanhettiarachchi/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/ashanhettiarachchi/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.3/log4j-api-2.24.3.jar:/Users/ashanhettiarachchi/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/ashanhettiarachchi/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/ashanhettiarachchi/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/ashanhettiarachchi/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/ashanhettiarachchi/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/ashanhettiarachchi/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Colombo"/>
+    <property name="suiteXmlFile" value="testng.xml"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="LK"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk@21/21.0.8/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/ashanhettiarachchi/JavaSelenium/seleniumautomation/target/surefire/surefirebooter-20251023215655793_3.jar /Users/ashanhettiarachchi/JavaSelenium/seleniumautomation/target/surefire 2025-10-23T21-56-55_742-jvmRun1 surefire-20251023215655793_1tmp surefire_0-20251023215655793_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/ashanhettiarachchi/JavaSelenium/seleniumautomation/target/test-classes:/Users/ashanhettiarachchi/JavaSelenium/seleniumautomation/target/classes:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-java/4.32.0/selenium-java-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-api/4.32.0/selenium-api-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.32.0/selenium-chrome-driver-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.32.0/selenium-chromium-driver-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-json/4.32.0/selenium-json-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.32.0/selenium-manager-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v134/4.32.0/selenium-devtools-v134-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v135/4.32.0/selenium-devtools-v135-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v136/4.32.0/selenium-devtools-v136-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.32.0/selenium-edge-driver-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.32.0/selenium-firefox-driver-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-http/4.32.0/selenium-http-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.32.0/selenium-ie-driver-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.32.0/selenium-remote-driver-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/Users/ashanhettiarachchi/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/ashanhettiarachchi/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/ashanhettiarachchi/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/ashanhettiarachchi/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/ashanhettiarachchi/.m2/repository/io/opentelemetry/opentelemetry-api/1.49.0/opentelemetry-api-1.49.0.jar:/Users/ashanhettiarachchi/.m2/repository/io/opentelemetry/opentelemetry-context/1.49.0/opentelemetry-context-1.49.0.jar:/Users/ashanhettiarachchi/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.49.0/opentelemetry-exporter-logging-1.49.0.jar:/Users/ashanhettiarachchi/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.49.0/opentelemetry-sdk-common-1.49.0.jar:/Users/ashanhettiarachchi/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.49.0/opentelemetry-sdk-extension-autoconfigure-spi-1.49.0.jar:/Users/ashanhettiarachchi/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.49.0/opentelemetry-sdk-extension-autoconfigure-1.49.0.jar:/Users/ashanhettiarachchi/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.49.0/opentelemetry-sdk-trace-1.49.0.jar:/Users/ashanhettiarachchi/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.49.0/opentelemetry-sdk-1.49.0.jar:/Users/ashanhettiarachchi/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.49.0/opentelemetry-sdk-metrics-1.49.0.jar:/Users/ashanhettiarachchi/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.49.0/opentelemetry-sdk-logs-1.49.0.jar:/Users/ashanhettiarachchi/.m2/repository/net/bytebuddy/byte-buddy/1.17.5/byte-buddy-1.17.5.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-os/4.32.0/selenium-os-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.32.0/selenium-safari-driver-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/seleniumhq/selenium/selenium-support/4.32.0/selenium-support-4.32.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/ashanhettiarachchi/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/ashanhettiarachchi/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/ashanhettiarachchi/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/ashanhettiarachchi/.m2/repository/org/apache/poi/poi/5.4.0/poi-5.4.0.jar:/Users/ashanhettiarachchi/.m2/repository/commons-codec/commons-codec/1.17.1/commons-codec-1.17.1.jar:/Users/ashanhettiarachchi/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/ashanhettiarachchi/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/ashanhettiarachchi/.m2/repository/commons-io/commons-io/2.18.0/commons-io-2.18.0.jar:/Users/ashanhettiarachchi/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/ashanhettiarachchi/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.3/log4j-api-2.24.3.jar:/Users/ashanhettiarachchi/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/ashanhettiarachchi/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/ashanhettiarachchi/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/ashanhettiarachchi/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/ashanhettiarachchi/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/ashanhettiarachchi/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ashanhettiarachchi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk@21/21.0.8/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/ashanhettiarachchi/JavaSelenium/seleniumautomation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/ashanhettiarachchi/JavaSelenium/seleniumautomation/target/surefire/surefirebooter-20251023215655793_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.8"/>
+    <property name="user.name" value="ashanhettiarachchi"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.0.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/ashanhettiarachchi/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/kl/f28kddbx0r1fzxwqs1nth9240000gn/T/"/>
+    <property name="java.version" value="21.0.8"/>
+    <property name="user.dir" value="/Users/ashanhettiarachchi/JavaSelenium/seleniumautomation"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ashanhettiarachchi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="21.0.8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="loginTest" classname="com.crm.test.LoginPageTest" time="10.984">
+    <system-out><![CDATA[AAA
+BBB
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Oct 23, 2025 9:57:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 141
+Oct 23, 2025 9:57:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 141.0.7390.123. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.32.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyHomeLogoTest" classname="com.crm.test.HomePageTest" time="6.956">
+    <system-out><![CDATA[AAA
+BBB
+]]></system-out>
+    <system-err><![CDATA[Oct 23, 2025 9:57:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 141
+Oct 23, 2025 9:57:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 141.0.7390.123. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.32.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="clickNewButtonTest" classname="com.crm.test.HomePageTest" time="1.232">
+    <system-out><![CDATA[AAA
+BBB
+]]></system-out>
+    <system-err><![CDATA[Oct 23, 2025 9:57:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 141
+Oct 23, 2025 9:57:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 141.0.7390.123. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.32.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="CreateNewPersonRecordTest" classname="com.crm.test.CreatePersonTest" time="19.362">
+    <system-out><![CDATA[AAA
+BBB
+]]></system-out>
+    <system-err><![CDATA[Oct 23, 2025 9:58:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 141
+Oct 23, 2025 9:58:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 141.0.7390.123. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.32.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyPersonTopContent" classname="com.crm.test.PersonSummaryTest" time="7.252">
+    <system-out><![CDATA[AAA
+BBB
+]]></system-out>
+    <system-err><![CDATA[Oct 23, 2025 9:59:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 141
+Oct 23, 2025 9:59:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 141.0.7390.123. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.32.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>
