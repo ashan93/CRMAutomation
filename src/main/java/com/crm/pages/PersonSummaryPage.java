@@ -18,5 +18,5 @@ public class PersonSummaryPage extends TestBase {
     public String getTopContentPersonName(){
         return topContentPersonName.getText();
     }
-
+    
 }

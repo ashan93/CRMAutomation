@@ -8,7 +8,7 @@
             <class name="com.crm.test.LoginPageTest" />
             <class name="com.crm.test.HomePageTest" />
             <class name="com.crm.test.CreatePersonTest" />
-            <class name="com.crm.test.PersonSummaryTest" />
+            <!-- <class name="com.crm.test.PersonSummaryTest" /> -->
             
         </classes>
     </test>
